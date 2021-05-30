@@ -1,0 +1,90 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+
+}
+
+* ,*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    @include breakpoint-up(md) {
+        font-size: 5rem;
+           
+    }
+    @include breakpoint-up(xl) {
+        font-size: 5.5625rem;
+           
+    }
+}
+span {
+    @include breakpoint-up(lg) {
+        font-size: 1.375rem;
+    }
+}
+h1 {
+    
+    font-size: 18.75rem;
+    opacity: 10%;
+    pointer-events: none;
+    @include breakpoint-down (md){
+        font-size: 13rem;
+    }
+    
+    
+}
+h5 {
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
+}
+
+.modal-content, .modal-header{
+    background-color: transparent;
+    border-style: none;
+}
+
+.copy {
+    text-align: center;
+    margin: 2rem;
+    font-size: 0.8rem;
+    a{
+        font-weight: 500;
+        color: black;
+    }
+}
+.button-b {
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: $primairyColor;
+    color: $secondaryColor;
+    border-style: none;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease-in-out 0s;
+    &:hover {
+        background-color: $secondaryColor;
+        color: $primairyColor;
+        transform: scale(1.1);
+        box-shadow: 0px 5px 12px rgba(0, 0,0,.4);
+    }
+}
+.container {
+    overflow:hidden;
+}

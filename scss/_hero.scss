@@ -1,0 +1,50 @@
+
+
+.hero {
+    min-height: 90vh;
+    
+
+    &-container{
+        height: 100%;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    &-img{
+        @include breakpoint-down(md) {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            margin-right: 2rem;
+               
+        }
+    }
+    &-text {
+        
+        @include breakpoint-down(md) {
+            text-align: center;
+               
+        }
+        .cta {
+            @include breakpoint-down(md) {
+                justify-content: center;
+                   
+            }
+        }
+
+    }
+    &-cta {
+        :hover {
+            transform: scale(1.2);
+            
+        }
+        
+    }
+    &-icon{
+        transition: all 0.3s ease-in-out 0s;
+        height: 2.5rem;
+        max-height: 4rem;
+        @include breakpoint-down(md) {
+            transform: scale(0.7);
+               
+        }
+    }
+}

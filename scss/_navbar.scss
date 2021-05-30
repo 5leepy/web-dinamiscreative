@@ -1,0 +1,38 @@
+.navbar{
+    background-color: $primairyColor;
+    .nav-brand {
+        img {
+        max-width: 7rem;
+        @include breakpoint-down(xl) {
+            width: 6.25rem;
+            
+        }
+        }
+    }
+}
+#navbarNav {
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-size: 1rem;
+                font-weight: 400;
+                color: $secondaryColor;
+                margin-left: 2.5rem;
+                border-radius: 1rem;
+                padding: 0.2rem 0.6rem;
+                transition: all 0.3s ease-in-out 0s;
+                &:hover {
+                    background-color: $tertiaryColor;
+                    color: $primairyColor;
+                }
+            }
+        }
+    }
+    img {
+
+        width: 1.875rem;
+        margin-left: 1.6875rem;
+        
+        
+    }
+}

@@ -1,0 +1,13 @@
+.gallery {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+img {
+    max-width: 100%;
+}
+#gallery-modal{
+    .modal-img {
+        width: 100%;
+    }
+}

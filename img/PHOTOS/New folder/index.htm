@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    />
+     
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#testimonial-slider").owlCarousel({
+          items: 1,
+          itemsDesktop: [1000, 1],
+          itemsDesktopSmall: [979, 1],
+          itemsTablet: [768, 1],
+          pagination: true,
+          navigation: true,
+          navigationText: ["", ""],
+          slideSpeed: 1000,
+          autoPlay: true,
+        });
+      });
+    </script>
+    <style>
+      #testimonial-slider {
+        /* color: red; */
+        padding: 50px 20px 35px 20px;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
+        border-radius: 50px;
+      }
+
+      .owl-buttons {
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        bottom: 54%;
+        left: 0;
+      }
+
+      .owl-prev,
+      .owl-next {
+        position: absolute;
+        left: 0;
+        transition: all 0.4s ease-in-out 0s;
+      }
+
+      .owl-next {
+        left: auto;
+        right: 0;
+      }
+
+      .owl-buttons .owl-prev:before,
+      .owl-buttons .owl-next:before {
+        content: "\f104";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 60px;
+        font-weight: 900;
+        color: #cacaca;
+        line-height: 20px;
+        opacity: 0.8;
+      }
+
+      .owl-buttons .owl-next:before {
+        content: "\f105";
+      }
+
+      .owl-buttons .owl-prev:hover:before,
+      .owl-buttons .owl-next:hover:before {
+        opacity: 1;
+      }
+
+      .owl-theme .owl-controls .owl-buttons div {
+        background: transparent;
+      }
+
+      .owl-theme .owl-controls {
+        margin-top: 40px;
+      }
+
+      .owl-theme .owl-controls .owl-page span {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 4px solid #ccc;
+        background: url("img-1.jpg") no-repeat;
+        background-size: cover;
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      .owl-theme .owl-controls .owl-page:nth-child(2) span {
+        background: url("img-1.jpg") no-repeat;
+        background-size: cover;
+      }
+
+      .owl-theme .owl-controls .owl-page:nth-child(3) span {
+        background: url("img-1.jpg") no-repeat;
+        background-size: cover;
+      }
+
+      .owl-theme .owl-controls.clickable .owl-page:hover span {
+        opacity: 0.5;
+      }
+
+      .owl-theme .owl-controls .owl-page.active span,
+      .owl-theme .owl-controls .owl-page.active:hover span {
+        border-color: #d133ff;
+        opacity: 1;
+      }
+
+      @media only screen and (max-width: 479px) {
+        .owl-buttons {
+          bottom: 48%;
+        }
+      }
+
+      .owl-pagination {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="index.htm" class="home-link">
+          <img
+            src="resource/LOGOS/Dinamis Creative Studio Logo White Transparent.png"
+            alt="logo"
+            width="120px"
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#services">Services</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#projects">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#team">Team</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#partners">Partners</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#contact">Contact</a>
+            </li>
+
+            <div class="social">
+              <li class="fb">
+                <a href="">
+                  <svg
+                    id="Bold"
+                    class="svg-margin"
+                    enable-background="new 0 0 24 24"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg
+                ></a>
+              </li>
+              <li class="tw">
+                <a href=""><svg
+                    viewBox="0 0 512.00096 512.00096"
+                    class="svg-margin"
+                    height="20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"
+                    />
+                    <path
+                      d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"
+                    />
+                    <path
+                      d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"
+                    /></svg
+                ></a>
+              </li>
+              <li class="li">
+                <a href=""
+                  ><svg
+                    version="1.1"
+                    class="svg-margin"
+                    height="20"
+                    width="20"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 512 512"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+             c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+             c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+             c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+             c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+             c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+             C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+             C480.224,136.96,497.728,118.496,512,97.248z"
+                        />
+                      </g>
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- Main section start -->
+    <section class="dinamisCreative" style="margin-top: 200px">
+      <div class="DC">
+        <div class="DC_background">
+          <div class="shake">DC</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="display: flex; align-items: center">
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <h1 class="mainheading text-uppercase">
+              dinamis <br />
+              Creative
+            </h1>
+            <div class="respon">
+              <div style="display: flex">
+                <div>
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="45px"
+                    height="45px"
+                    class="zoom"
+                    viewBox="0 0 408.221 408.221"
+                    style="
+                      enable-background: new 0 0 408.221 408.221;
+                      margin-top: 20px;
+                      cursor: pointer;
+                    "
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M204.11,0C91.388,0,0,91.388,0,204.111c0,112.725,91.388,204.11,204.11,204.11c112.729,0,204.11-91.385,204.11-204.11
+       C408.221,91.388,316.839,0,204.11,0z M286.547,229.971l-126.368,72.471c-17.003,9.75-30.781,1.763-30.781-17.834V140.012
+       c0-19.602,13.777-27.575,30.781-17.827l126.368,72.466C303.551,204.403,303.551,220.217,286.547,229.971z"
+                        />
+                      </g>
+                    </g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                    <g></g>
+                  </svg>
+                </div>
+                <div class="simpletext">Dont be surprised :)</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div>
+              <img
+                src="resource/PHOTOS/Phone Mockup.png"
+                class="img-fluid zoom"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main section end -->
+
+    <!-- serivices section start -->
+    <div id="services"></div>
+    <section class="sp_section" style="margin-top: 200px">
+      <div class="container">
+        <h1 class="mainheading text-uppercase">
+          serivices <br />
+          &portfolio
+        </h1>
+        <!-- row1 start -->
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="shake"
+                    viewBox="0 0 512 512"
+                  >
+                    <g id="Solid">
+                      <rect x="88" y="104" />
+                      <circle cx="92" cy="76" r="12" />
+                      <path
+                        d="M56,176H88a8,8,0,0,1,4.648,1.488l39.54,28.242L128,185.63a8,8,0,0,1,7.832-9.63H200a24,24,0,0,0,24-24V56a24,24,0,0,0-24-24H56A24,24,0,0,0,32,56v96A24,24,0,0,0,56,176ZM88.518,48.213A27.884,27.884,0,0,1,112,56.466a27.962,27.962,0,1,1,39.924,39.159c.007.131.076.242.076.375v3.055l20.413-10.241A8,8,0,0,1,184,95.964v47.7a8,8,0,0,1-11.482,7.2L152,140.945V144a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V96c0-.133.069-.244.076-.375A27.965,27.965,0,0,1,88.518,48.213Z"
+                      />
+                      <path
+                        d="M208,360V312a24.027,24.027,0,0,0-24-24l-16.292-.307a8,8,0,0,1-7.58-10.058l3.567-13.389-39.726,22.7A8,8,0,0,1,120,288H56a24,24,0,0,0-24,24v48a24,24,0,0,0,24,24H184A24,24,0,0,0,208,360Zm-56-48h40v16H152ZM48,312h88v16H48Zm0,48V344H192v16Z"
+                      />
+                      <polygon
+                        points="168 108.945 152 116.945 152 123.055 168 131.055 168 108.945"
+                      />
+                      <path
+                        d="M296,80h70.526A23.96,23.96,0,0,0,344,64H240V96h24.2A39.828,39.828,0,0,1,296,80Z"
+                      />
+                      <circle cx="132" cy="76" r="12" />
+                      <path
+                        d="M404.528,266.025,384,280.688v60l29.656,29.656-11.312,11.312-67.491-67.49a20.284,20.284,0,0,0-28.685,0h0a20.284,20.284,0,0,0,0,28.686l51.489,51.493a8,8,0,0,1,.985,10.117l-3.6,5.359a60.021,60.021,0,0,0-7.687,16.453A61.984,61.984,0,0,0,356.039,480H440V336.32a72,72,0,0,0-17.781-47.379Z"
+                      />
+                      <circle cx="392" cy="144" r="16" />
+                      <path
+                        d="M387.445,222.584,328,178l-55.625,41.715A23.973,23.973,0,0,0,296,240h72.051a8,8,0,0,1,7.841,9.588l-4.08,20.142,39.54-28.242A8,8,0,0,1,416,240h40a23.986,23.986,0,0,0,23.6-19.989l-39.6-26.4-43.28,29.2A8,8,0,0,1,387.445,222.584Z"
+                      />
+                      <path
+                        d="M283.68,328a36.318,36.318,0,0,1,61.976-25.656L368,324.688v-32.57l-3.634,2.443a7.779,7.779,0,0,1-9.2-.381h0a7.781,7.781,0,0,1-2.782-7.538L358.242,256H296a40,40,0,0,1-40-40V120a39.955,39.955,0,0,1,.809-8H240v40a40,40,0,0,1-40,40H145.758l6.086,30.43A8,8,0,0,1,144,232v25.072l28.031-16.017a8,8,0,0,1,11.727,8.886L178.25,272H184a40,40,0,0,1,40,40v48a40,40,0,0,1-40,40H144v16H334.175a75.171,75.171,0,0,1,7.513-15l-47.344-47.348A36.054,36.054,0,0,1,283.68,328Z"
+                      />
+                      <path
+                        d="M456,96H296a24.027,24.027,0,0,0-24,24v80l51.2-38.4a7.992,7.992,0,0,1,9.594,0l59.476,44.6,43.289-28.859a8.01,8.01,0,0,1,8.876,0L480,201.052V120A24.027,24.027,0,0,0,456,96Zm-64,80a32,32,0,1,1,32-32A32.034,32.034,0,0,1,392,176Z"
+                      />
+                      <path
+                        d="M329.716,432H144v24a24.027,24.027,0,0,0,24,24H337.522A77.928,77.928,0,0,1,329.716,432ZM264,464H248V448h16Z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Social Media Managment</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    viewBox="0 0 480 480"
+                    class="shake"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m448 64v16c8.835938 0 16 7.164062 16 16v240h-448v-240c0-8.835938 7.164062-16 16-16v-16c-17.671875 0-32 14.328125-32 32v272c0 17.671875 14.328125 32 32 32h157.246094l-19.199219 64h-18.046875v16h176v-16h-18.046875l-19.199219-64h157.246094c17.671875 0 32-14.328125 32-32v-272c0-17.671875-14.328125-32-32-32zm-154.753906 400h-106.492188l19.199219-64h68.09375zm170.753906-96c0 8.835938-7.164062 16-16 16h-416c-8.835938 0-16-7.164062-16-16v-16h448zm0 0"
+                    />
+                    <path
+                      d="m64 32c0-8.835938 7.164062-16 16-16h256v32h-64c-2.121094 0-4.15625.84375-5.65625 2.34375l-160 160c-3.121094 3.125-3.121094 8.1875 0 11.3125l96 96c3.125 3.121094 8.1875 3.121094 11.3125 0l160-160c1.5-1.5 2.34375-3.535156 2.34375-5.65625v-56h40v224h16v-232c0-.167969-.089844-.320312-.097656-.488281-.042969-.707031-.183594-1.40625-.414063-2.078125-.089843-.257813-.152343-.496094-.265625-.746094-.386718-.871094-.929687-1.664062-1.597656-2.34375l-80-80c-.675781-.671875-1.46875-1.214844-2.335938-1.601562-.257812-.117188-.511718-.183594-.800781-.277344-.652343-.222656-1.328125-.355469-2.015625-.402344-.128906.0351562-.289062-.0625-.472656-.0625h-264c-17.671875 0-32 14.328125-32 32v288h16zm296 116.6875-152 152-84.6875-84.6875 152-152h61.488281c2.636719 12.734375 11.285157 23.394531 23.199219 28.609375zm44.6875-68.6875h-28.6875c-13.253906 0-24-10.746094-24-24v-28.6875zm0 0"
+                    />
+                    <path d="m80 32h16v16h-16zm0 0" />
+                    <path d="m112 32h16v16h-16zm0 0" />
+                    <path d="m144 32h16v16h-16zm0 0" />
+                    <path
+                      d="m344 96c0 8.835938-7.164062 16-16 16s-16-7.164062-16-16 7.164062-16 16-16 16 7.164062 16 16zm0 0"
+                    />
+                    <path
+                      d="m154.34375 213.652344 11.3125-11.3125 55.996094 55.996094-11.3125 11.3125zm0 0"
+                    />
+                    <path
+                      d="m178.34375 189.65625 11.3125-11.316406 55.996094 56-11.3125 11.3125zm0 0"
+                    />
+                    <path
+                      d="m303.839844 126.398438c-.632813-3.164063-3.109375-5.636719-6.273438-6.269532l-40-8c-2.613281-.515625-5.3125.300782-7.199218 2.183594l-24 24c-1.878907 1.886719-2.699219 4.585938-2.183594 7.199219l8 40c.632812 3.164062 3.109375 5.636719 6.273437 6.273437l40 8c.503907.125 1.023438.195313 1.542969.214844 2.121094 0 4.15625-.84375 5.65625-2.34375l24-24c1.882812-1.886719 2.699219-4.585938 2.183594-7.199219zm-26.472656 56.890624-30.566407-6.089843-6.113281-30.566407 17.945312-17.953124 30.566407 6.121093 6.113281 30.566407zm0 0"
+                    />
+                    <path d="m80 80h80v16h-80zm0 0" />
+                    <path d="m80 112h80v16h-80zm0 0" />
+                    <path d="m80 144h48v16h-48zm0 0" />
+                    <path d="m384 240h16v16h-16zm0 0" />
+                    <path d="m320 272h80v16h-80zm0 0" />
+                    <path d="m320 304h80v16h-80zm0 0" />
+                    <path d="m320 240h48v16h-48zm0 0" />
+                    <path d="m80 272h56v16h-56zm0 0" />
+                    <path d="m80 304h80v16h-80zm0 0" />
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Brand Identity</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    id="Capa_1"
+                    enable-background="new 0 0 512 512"
+                    class="shake"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <path
+                        d="m305.7 173.95c-58.945 0-106.9 47.955-106.9 106.9s47.956 106.9 106.9 106.9 106.899-47.955 106.899-106.9-47.954-106.9-106.899-106.9zm0 198.8c-50.674 0-91.9-41.226-91.9-91.9s41.227-91.9 91.9-91.9 91.899 41.226 91.899 91.9-41.225 91.9-91.899 91.9z"
+                      />
+                      <path
+                        d="m305.7 240.217c-22.405 0-40.634 18.228-40.634 40.633s18.228 40.633 40.634 40.633c22.405 0 40.633-18.228 40.633-40.633s-18.228-40.633-40.633-40.633zm0 66.266c-14.135 0-25.634-11.499-25.634-25.633s11.499-25.633 25.634-25.633c14.134 0 25.633 11.499 25.633 25.633s-11.499 25.633-25.633 25.633z"
+                      />
+                      <path
+                        d="m471.366 140.817h-27.268c-10.542 0-19.884-6.325-23.799-16.114l-16.472-41.177c-6.206-15.517-21.015-25.542-37.728-25.542h-137.367c-16.712 0-31.52 10.026-37.727 25.542l-16.471 41.177c-3.916 9.789-13.258 16.114-23.8 16.114h-36.334v-17.634c0-8.547-6.953-15.5-15.5-15.5h-33.7c-8.547 0-15.5 6.953-15.5 15.5v17.634h-9.067c-22.405 0-40.633 18.228-40.633 40.633v231.933c0 22.405 18.228 40.633 40.633 40.633h66.267 66.267 21.353c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-13.853v-17.633c0-8.547-6.953-15.5-15.5-15.5h-17.633v-183.8h31.08c-8.301 17.881-12.946 37.79-12.946 58.767 0 77.214 62.819 140.033 140.034 140.033 69.01 0 126.514-50.18 137.957-115.967h11.141c13.271 0 24.066-10.796 24.066-24.066 0-13.271-10.796-24.067-24.066-24.067h-11.143c-2.118-12.175-5.815-23.813-10.87-34.7h64.213v47.517c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-88.15c0-22.405-18.228-40.633-40.634-40.633zm-406.666-17.634c0-.276.224-.5.5-.5h33.7c.276 0 .5.224.5.5v17.634h-34.7zm-24.067 32.634h16.567 49.7 25.633v51.267h-117.533v-25.634c0-14.134 11.499-25.633 25.633-25.633zm125.033 265.566v17.633h-51.266v-17.633c0-.276.224-.5.5-.5h50.267c.275 0 .499.224.499.5zm-33.133-15.5h-17.633c-8.547 0-15.5 6.953-15.5 15.5v17.633h-58.767c-14.134.001-25.633-11.498-25.633-25.633v-75.333h25.633c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-25.633v-18.133h25.633c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-25.633v-18.133h25.633c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-25.633v-34.7h117.533zm173.167 0c-68.944 0-125.034-56.09-125.034-125.033s56.09-125.033 125.034-125.033c68.943 0 125.033 56.09 125.033 125.033s-56.089 125.033-125.033 125.033zm149.1-134.1c4.999 0 9.066 4.067 9.066 9.067 0 4.999-4.067 9.066-9.066 9.066h-9.368c.193-2.999.302-6.02.302-9.066 0-3.047-.109-6.068-.302-9.067zm-30.124-64.7c-24.734-39.748-68.813-66.267-118.976-66.267s-94.242 26.518-118.976 66.267h-39.191v-51.267h3.201c16.711 0 31.521-10.026 37.727-25.543l16.471-41.177c3.916-9.789 13.258-16.113 23.8-16.113h137.368c10.543 0 19.885 6.325 23.8 16.113l16.472 41.177c6.206 15.517 21.015 25.543 37.727 25.543h27.268c14.135 0 25.634 11.499 25.634 25.633v25.633h-72.325z"
+                      />
+                      <path
+                        d="m504.5 292.1c-4.143 0-7.5 3.358-7.5 7.5v113.784c0 14.134-11.499 25.633-25.634 25.633h-246.847c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h246.848c22.405 0 40.634-18.228 40.634-40.633v-113.784c-.001-4.143-3.358-7.5-7.501-7.5z"
+                      />
+                      <path
+                        d="m355.4 107.683h-115.967c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h115.967c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5z"
+                      />
+                      <path
+                        d="m471.366 420.883c4.143 0 7.5-3.358 7.5-7.5v-33.133c0-4.142-3.357-7.5-7.5-7.5h-33.133c-4.143 0-7.5 3.358-7.5 7.5v33.133c0 4.142 3.357 7.5 7.5 7.5zm-25.633-33.133h18.133v18.133h-18.133z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Photography</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row1 end -->
+
+        <!-- row2 start -->
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    id="Layer_1"
+                    class="shake"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-name="Layer 1"
+                  >
+                    <path
+                      d="m349 428.167v-337.167h-67.988a4.8 4.8 0 0 1 -5.012-4.747v-65.253h-216.3a26.715 26.715 0 0 0 -26.7 26.568v380.6a26.942 26.942 0 0 0 26.7 26.832h262.435a27.082 27.082 0 0 0 26.865-26.833zm-290-284.289a5 5 0 0 1 -10 0v-72a5 5 0 0 1 10 0zm0-93a5 5 0 0 1 -10 0v-4.3a5 5 0 0 1 10 0zm12.78 99.6a5 5 0 0 1 -3.419-4.744 73.674 73.674 0 0 1 73.663-73.673 5 5 0 0 1 4.744 3.418l3.526 10.579a95.605 95.605 0 1 1 -66.847 68.308zm150.837 167.522a5 5 0 0 1 -5 5h-124.957a5 5 0 1 1 0-10h124.957a5 5 0 0 1 5 5zm38.406 80h-168.363a5 5 0 1 1 0-10h168.363a5 5 0 0 1 0 10zm28.21-37h-196.573a5 5 0 1 1 0-10h196.573a5 5 0 0 1 0 10z"
+                    />
+                    <path
+                      d="m138.453 82.153a63.687 63.687 0 0 0 -59.994 60l90 29.993z"
+                    />
+                    <path
+                      d="m360.849 114h-1.849v314.167a37.092 37.092 0 0 1 -36.865 36.833h-238.31a26.708 26.708 0 0 0 26.56 26h250.464a26.246 26.246 0 0 0 26.151-26.568v-324.091a26.051 26.051 0 0 0 -26.151-26.341z"
+                    />
+                    <path
+                      d="m179.9 183.591a5 5 0 0 1 -3.537 1.465l-83.398-27.523a85.659 85.659 0 1 0 60.5-61.979l27.635 82.921a5 5 0 0 1 -1.2 5.116z"
+                    />
+                    <path d="m286 27.766v53.234h55.482z" />
+                    <path d="m455.408 484.818 19.987-39.849-39.87-.052z" />
+                    <path
+                      d="m455.873 245h-.03a23.006 23.006 0 0 0 -23.023 22.942l-.049 22.637 46.044.075.05-22.663a22.989 22.989 0 0 0 -22.992-22.991z"
+                    />
+                    <path
+                      d="m460.479 434.949 18.023.024.292-134.348-17.966-.023z"
+                    />
+                    <path
+                      d="m450.828 300.589-18.08-.024-.295 134.348 18.026.023z"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Creative Project Managment</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    id="Capa_1"
+                    class="shake"
+                    enable-background="new 0 0 509.632 509.632"
+                    viewBox="0 0 509.632 509.632"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <path
+                        d="m277.063 480.305c-4.142 0-7.5-3.358-7.5-7.5v-19.943c0-2.856-2.324-5.18-5.18-5.18h-20.135c-2.856 0-5.18 2.324-5.18 5.18v19.943c0 4.142-3.358 7.5-7.5 7.5s-7.5-3.358-7.5-7.5v-19.943c0-11.127 9.053-20.18 20.18-20.18h20.135c11.127 0 20.18 9.053 20.18 20.18v19.943c0 4.142-3.357 7.5-7.5 7.5z"
+                      />
+                      <g>
+                        <path
+                          d="m326.426 206.146c-2.464-3.329-7.161-4.028-10.491-1.565-3.329 2.465-4.029 7.162-1.565 10.491l37.243 50.301c4.143 5.595 3.843 14.022-.682 19.186l-40.125 45.791h-112.98l-40.125-45.791c-4.525-5.164-4.825-13.591-.682-19.186l73.941-99.866v56.904c-9.373 7.204-14.852 18.222-14.852 30.248 0 21.068 17.14 38.208 38.208 38.208s38.208-17.14 38.208-38.208c0-11.485-5.111-22.21-13.852-29.435v-56.366l16.469 22.243c2.465 3.33 7.162 4.029 10.491 1.565 3.329-2.465 4.029-7.162 1.565-10.491l-32.17-43.45c-5.064-6.84-12.613-10.763-20.71-10.763s-15.646 3.923-20.71 10.763l-88.643 119.723c-8.313 11.228-7.687 27.563 1.457 37.998l33.463 38.187c-8.356 3.896-14.164 12.371-14.164 22.182v35.781c0 10.954 7.237 20.249 17.181 23.357l2.046 59.114c.14 4.052 3.468 7.241 7.491 7.241.088 0 .176-.001.264-.004 4.14-.144 7.379-3.615 7.236-7.755l-1.99-57.488h113.738l-1.99 57.488c-.143 4.14 3.097 7.611 7.236 7.755.088.003.176.004.264.004 4.022 0 7.351-3.189 7.491-7.241l2.058-59.457c9.419-3.405 16.169-12.435 16.169-23.014v-35.781c0-9.811-5.808-18.286-14.164-22.182l33.463-38.187c9.144-10.434 9.77-26.77 1.457-37.998zm-72.11-65.185c3.342 0 6.416 1.665 8.654 4.688l.702.948v80.396c0 2.523 1.269 4.878 3.377 6.265 6.559 4.316 10.475 11.569 10.475 19.399 0 12.797-10.411 23.208-23.208 23.208s-23.208-10.411-23.208-23.208c0-8.201 4.198-15.633 11.23-19.882 2.248-1.358 3.622-3.793 3.622-6.419v-81.07c2.21-2.784 5.156-4.325 8.356-4.325zm73.598 249.633c0 5.218-4.246 9.464-9.464 9.464h-128.267c-5.219 0-9.464-4.246-9.464-9.464v-35.781c0-5.218 4.246-9.464 9.464-9.464h128.267c5.219 0 9.464 4.246 9.464 9.464z"
+                        />
+                        <path
+                          d="m105.063 208.447c.985-23.762 7.594-47.027 19.291-67.643 2.044-3.603.781-8.18-2.822-10.224-3.603-2.045-8.18-.781-10.224 2.822-12.964 22.847-20.253 48.643-21.257 74.972-12.943 3.291-22.545 15.04-22.545 28.993 0 16.494 13.419 29.913 29.913 29.913s29.913-13.419 29.913-29.913c0-13.853-9.466-25.533-22.269-28.92zm-7.644 43.833c-8.223 0-14.913-6.69-14.913-14.913s6.69-14.913 14.913-14.913 14.913 6.69 14.913 14.913-6.69 14.913-14.913 14.913z"
+                        />
+                        <path
+                          d="m493.752 29.327h-24.102c-8.756 0-15.88 7.124-15.88 15.88v4.551h-171.023v-4.551c0-8.756-7.124-15.88-15.88-15.88h-24.102c-8.756 0-15.88 7.124-15.88 15.88v4.551h-171.023v-4.551c0-8.756-7.124-15.88-15.88-15.88h-24.102c-8.756 0-15.88 7.124-15.88 15.88v24.102c0 8.756 7.124 15.88 15.88 15.88h24.102c8.756 0 15.88-7.124 15.88-15.88v-4.551h130.197c-20.822 9.564-39.618 23.457-55.053 40.991-2.737 3.109-2.436 7.848.674 10.585 1.425 1.254 3.192 1.871 4.953 1.871 2.08 0 4.15-.86 5.632-2.544 22.178-25.193 51.972-42.129 84.62-48.29v1.939c0 8.756 7.124 15.88 15.88 15.88h24.102c8.756 0 15.88-7.124 15.88-15.88v-1.94c68.087 12.829 118.957 71.544 121.831 141.076-12.807 3.384-22.278 15.066-22.278 28.922 0 16.494 13.419 29.913 29.913 29.913s29.913-13.419 29.913-29.913c0-13.951-9.601-25.7-22.543-28.992-2.397-63.089-40.715-118.164-96.006-143.616h130.193v4.551c0 8.756 7.124 15.88 15.88 15.88h24.102c8.756 0 15.88-7.124 15.88-15.88v-24.104c0-8.756-7.124-15.88-15.88-15.88zm-452.89 39.982c0 .485-.395.88-.88.88h-24.102c-.485 0-.88-.395-.88-.88v-24.102c0-.485.395-.88.88-.88h24.102c.485 0 .88.395.88.88zm386.264 168.057c0 8.223-6.69 14.913-14.913 14.913s-14.913-6.69-14.913-14.913 6.69-14.913 14.913-14.913 14.913 6.69 14.913 14.913zm-159.379-168.057c0 .485-.395.88-.88.88h-24.102c-.485 0-.88-.395-.88-.88v-24.102c0-.485.395-.88.88-.88h24.102c.485 0 .88.395.88.88zm226.885 0c0 .485-.395.88-.88.88h-24.102c-.485 0-.88-.395-.88-.88v-24.102c0-.485.395-.88.88-.88h24.102c.485 0 .88.395.88.88z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Graphic Design</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <svg
+                    viewBox="0 -87 472 472"
+                    class="shake"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m467.101562 26.527344c-3.039062-1.800782-6.796874-1.871094-9.898437-.179688l-108.296875 59.132813v-35.480469c-.03125-27.601562-22.398438-49.96875-50-50h-248.90625c-27.601562.03125-49.96875 22.398438-50 50v197.421875c.03125 27.601563 22.398438 49.96875 50 50h248.90625c27.601562-.03125 49.96875-22.398437 50-50v-34.835937l108.300781 59.132812c3.097657 1.691406 6.859375 1.625 9.894531-.175781 3.039063-1.804688 4.898438-5.074219 4.898438-8.601563v-227.816406c0-3.53125-1.863281-6.796875-4.898438-8.597656zm-138.203124 220.898437c-.015626 16.5625-13.4375 29.980469-30 30h-248.898438c-16.5625-.019531-29.980469-13.4375-30-30v-197.425781c.019531-16.558594 13.4375-29.980469 30-30h248.90625c16.558594.019531 29.980469 13.441406 30 30zm123.101562-1.335937-103.09375-56.289063v-81.535156l103.09375-56.285156zm0 0"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Video Graphy</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row2 end -->
+      </div>
+    </section>
+    <!-- serivices section end -->
+
+    <!-- portfolio section start -->
+    <div id="projects"></div>
+    <section class="portfoiosec" style="margin-top: 200px">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="RESOURCE/PHOTOS/BERRIYUMMI.png" />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="RESOURCE/PHOTOS/INICEKER.png" />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img
+                class="content-image"
+                src="RESOURCE/PHOTOS/INICEKER.MLG.png"
+              />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img
+                class="content-image"
+                src="RESOURCE/PHOTOS/KaosBelakang.png"
+              />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img
+                class="content-image"
+                src="RESOURCE/PHOTOS/Tumblr Kolo Dimulai Dari Kamu.png"
+              />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="RESOURCE/PHOTOS/DEPAN.png" />
+              <div class="content-details fadeIn-top">
+                <h3 class="font">Cloeyumm Packaging</h3>
+                <p class="font">BRAND IDENTITY</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap my-3">
+            <button class="button_P">View All Products</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- team section start  -->
+    <div id="team"></div>
+    <section class="teamSection" style="margin-top: 200px">
+      <div class="DT">
+        <div class="DT_background">
+          <div class="shake">DT</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row" style="display: flex; align-items: center">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h1 class="mainheading text-uppercase">
+              dinamis <br />
+              team
+            </h1>
+            <p class="subheading2">
+              Lorem ipsum dolor, <br />
+              sit amet.
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5">
+            <div class="flip-card mx-auto">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="RESOURCE/PHOTOS/pexels-luis-quintero-1738636.jpg"
+                    style="width: 300px; height: 350px; border-radius: 30px"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h1 class="card_text">PHOTOGRAPHER</h1>
+                  <p class="card_des">
+                    Lorem ipsum dolor sit amet consectetur sit adipisicingamet
+                    sit consectetur adipisicingamet consectetur adipisicing
+                    elit.
+                  </p>
+
+                  <button class="button_c">Join Us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team section end -->
+
+    <!-- images section start  -->
+    <section class="teamImages" style="margin-top: 200px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card orangecard">
+              <div class="card-body">
+                <img
+                  src="resource/PHOTOS/HUGO KAOS.png"
+                  class="img-fluid zoomOut"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card orangecard_fix">
+              <div class="card-body">
+                <h1 class="ctext">HUGO ADVIWIRA WARDANA</h1>
+                <p class="dtext">mastermind of dinamis</p>
+                <p class="ltext">
+                  Lorem ipsum dolor piditate fugiat, tempore itatis minus rem ad
+                  consequuntur incidunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card redcard">
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card redcard_fix">
+              <div class="card-body">
+                <h1 class="ctext">Rr. diana hardisaraswati</h1>
+                <p class="dtext1">mastermind of dinamis</p>
+                <p class="ltext">
+                  Lorem ipsum dolor piditate fugiat, tempore itatis minus rem ad
+                  consequuntur incidunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap my-5">
+          <button class="button_P" style="background-color: black; color: #fff">
+            SAY HI, TO US
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- images section end  -->
+
+    <!-- Partners section start -->
+    <div id="partners"></div>
+    <section class="partners" style="margin-top: 200px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="mainheading text-uppercase">
+              our partners<br />&clients
+            </h1>
+            <!-- Slider-->
+
+            <div class="col-md-offset-2 col-md-12">
+                              
+              <div id="testimonial-slider" class="owl-carousel">
+                                    
+                <div class="testimonial">
+                   
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4"></div>
+
+                      <div class="col-md-4">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="resource/LOGOS/MAA.png"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="subheading">PT.MITRA AMERTA ASIA</div>
+
+                              <p class="slider_text">
+                                Dinamis Creative is under PT.Mitra Amerta Asia
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4"></div>
+                      <hr />
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="slider_text">
+                            Satu dua patah kata dari BOD MAA, kepada Dinamis.
+                            PT. MAA berperan sebaaai holder dari Dinamis.
+                            Nantinya akan ada anak perusahaan Iain, contoh yang
+                            telah ada: Zolokial Coffee. 'Semoga Dinamis tetap
+                            jaya, jaya, dan jaya"
+                          </div>
+
+                          <div class="slider_text" style="margin-top: 20px">
+                            Fadly gasalamah
+                          </div>
+
+                          <div class="subheading">
+                            BOD PT. Mitra Amerta Asia
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                          
+                </div>
+                <div class="testimonial">
+                   
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4"></div>
+
+                      <div class="col-md-4">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="resource/LOGOS/MAA.png"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="subheading">PT.MITRA AMERTA ASIA</div>
+
+                              <p class="slider_text">
+                                Dinamis Creative is under PT.Mitra Amerta Asia
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4"></div>
+                      <hr />
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="slider_text">
+                            Satu dua patah kata dari BOD MAA, kepada Dinamis.
+                            PT. MAA berperan sebaaai holder dari Dinamis.
+                            Nantinya akan ada anak perusahaan Iain, contoh yang
+                            telah ada: Zolokial Coffee. 'Semoga Dinamis tetap
+                            jaya, jaya, dan jaya"
+                          </div>
+
+                          <div class="slider_text" style="margin-top: 20px">
+                            Fadly gasalamah
+                          </div>
+
+                          <div class="subheading">
+                            BOD PT. Mitra Amerta Asia
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                          
+                </div>
+                <div class="testimonial">
+                   
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4"></div>
+
+                      <div class="col-md-4">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <img
+                                src="resource/LOGOS/MAA.png"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="subheading">PT.MITRA AMERTA ASIA</div>
+
+                              <p class="slider_text">
+                                Dinamis Creative is under PT.Mitra Amerta Asia
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4"></div>
+                      <hr />
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="slider_text">
+                            Satu dua patah kata dari BOD MAA, kepada Dinamis.
+                            PT. MAA berperan sebaaai holder dari Dinamis.
+                            Nantinya akan ada anak perusahaan Iain, contoh yang
+                            telah ada: Zolokial Coffee. 'Semoga Dinamis tetap
+                            jaya, jaya, dan jaya"
+                          </div>
+
+                          <div class="slider_text" style="margin-top: 20px">
+                            Fadly gasalamah
+                          </div>
+
+                          <div class="subheading">
+                            BOD PT. Mitra Amerta Asia
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                          
+                </div>
+                 
+                <!--                     <div class="testimonial">
+                                        
+                                    </div>
+               
+                                  <div class="testimonial">
+                                        
+                                    </div> -->
+                                
+              </div>
+                          
+            </div>
+                    
+          </div>
+              
+        </div>
+      </div>
+    </section>
+    <!-- Partners section end -->
+
+    <!-- Bersamamu section start -->
+
+    <section class="sp_section" style="margin-top: 200px">
+      <div class="container">
+        <h1 class="mainheading text-uppercase">
+          dinamis <br />
+          bersamamu
+        </h1>
+        <!-- row1 start -->
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    src="resource/logos/LOGO KOLO item.png"
+                    class="img-fluid shake"
+                  />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Kolo Kial Coffee</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit .</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    src="resource/logos/SK LOGO FIX.png"
+                    class="img-fluid shake"
+                  />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Servisin.Kuy</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    src="resource/logos/INCERTITUDE.png"
+                    class="img-fluid shake"
+                  />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Incertitude Apparel</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row1 end -->
+
+        <!-- row2 start -->
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    src="resource/logos/LOGO FIX.png"
+                    class="img-fluid shake"
+                  />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Ini Ceker Malang</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="resource/logos/MAA.png" class="img-fluid shake" />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">PT. Mitra Amerta Asia</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <img
+                    src="resource/logos/FLVR BOX LOGO BLACK TRANSPARENT.png"
+                    class="img-fluid shake"
+                  />
+                </div>
+                <div class="col-md-9">
+                  <p class="subheading">Flvr Box</p>
+                  <marquee>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row2 end -->
+      </div>
+    </section>
+
+    <!-- Bersamamu section end -->
+
+    <!-- contact us section start -->
+    <div id="contact"></div>
+
+    <section class="contactus text-center" style="margin-top: 200px">
+      <div class="container">
+        <h1 class="mainheading text-uppercase mb-5">contact us</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 50px">
+              <div
+                class="card-body"
+                style="background-color: black; border-radius: 50px"
+              >
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  class="contactsvg zoom"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 459.668 459.668"
+                  style="enable-background: new 0 0 459.668 459.668"
+                  xml:space="preserve"
+                >
+                  <g id="XMLID_2_">
+                    <g>
+                      <g>
+                        <path
+                          d="M359.574,297.043c-18.204,25.002-47.692,41.286-80.916,41.286h-46.618c-16.104,0-29.818-10.224-35.011-24.534
+               c-6.41-1.912-12.696-4.394-18.83-7.442c-12.99-6.454-24.785-15.198-35.168-26.03c-67.35,14.796-117.757,74.808-117.757,146.603
+               v9.384c0,12.9,10.458,23.358,23.358,23.358h362.403c12.9,0,23.358-10.458,23.358-23.358v-9.384
+               C434.392,371.464,404.309,323.032,359.574,297.043z"
+                        />
+                        <path
+                          d="M118.205,232.178c10.039,0,18.777-5.564,23.304-13.775c0.119,0.325,0.24,0.648,0.362,0.971
+               c0.036,0.097,0.072,0.194,0.108,0.291c10.62,27.954,31.284,51.388,58.532,61.627c6.59-10.471,18.243-17.435,31.53-17.435h46.618
+               c4.65,0,8.978-1.312,12.772-3.433c6.372-3.563,12.102-12.602,15.061-17.393c4.735-7.667,8.404-15.788,11.657-24.642
+               c1.828,3.32,4.342,6.208,7.354,8.471v11.431c0,25.83-21.014,46.845-46.845,46.845H232.04c-8.813,0-15.958,7.145-15.958,15.958
+               c0,8.814,7.145,15.958,15.958,15.958h46.618c43.429,0,78.761-35.332,78.761-78.761V226.86
+               c6.46-4.853,10.639-12.577,10.639-21.278v-48.119v-18.452c0-8.88-4.355-16.737-11.042-21.568C351.83,51.816,296.77,0,229.833,0
+               C162.895,0,107.836,51.816,102.65,117.442c-6.687,4.831-11.042,12.689-11.042,21.568v66.57
+               C91.608,220.311,103.575,232.178,118.205,232.178z M229.833,31.917c49.552,0,90.423,37.868,95.2,86.185
+               c-3.136,2.467-5.705,5.62-7.475,9.238c-15.058-39.286-48.672-66.638-87.726-66.638c-39.896,0-72.971,28.292-87.667,66.481
+               c-0.02,0.052-0.039,0.105-0.059,0.158c-1.77-3.618-4.339-6.771-7.475-9.238C139.411,69.785,180.281,31.917,229.833,31.917z"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+
+                <h2 class="contact_heading">Customer Support</h2>
+                <p class="contact-desc">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 50px">
+              <div
+                class="card-body"
+                style="background-color: black; border-radius: 50px"
+              >
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  class="contactsvg zoom"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512.18 512.18"
+                  style="enable-background: new 0 0 512.18 512.18"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M448.18,80h-320c-17.673,0-32,14.327-32,32s14.327,32,32,32h320c17.673,0,32-14.327,32-32S465.853,80,448.18,80z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M64.18,112c-0.036-8.473-3.431-16.586-9.44-22.56c-12.481-12.407-32.639-12.407-45.12,0
+             C3.61,95.414,0.215,103.527,0.18,112c-0.239,2.073-0.239,4.167,0,6.24c0.362,2.085,0.952,4.124,1.76,6.08
+             c0.859,1.895,1.876,3.715,3.04,5.44c1.149,1.794,2.49,3.457,4,4.96c1.456,1.45,3.065,2.738,4.8,3.84
+             c1.685,1.227,3.512,2.248,5.44,3.04c2.121,1.1,4.382,1.908,6.72,2.4c2.073,0.232,4.167,0.232,6.24,0
+             c8.45,0.007,16.56-3.329,22.56-9.28c1.51-1.503,2.851-3.166,4-4.96c1.164-1.725,2.181-3.545,3.04-5.44
+             c1.021-1.932,1.826-3.971,2.4-6.08C64.419,116.167,64.419,114.073,64.18,112z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M64.18,256c0.238-2.073,0.238-4.167,0-6.24c-0.553-2.065-1.359-4.053-2.4-5.92c-0.824-1.963-1.843-3.839-3.04-5.6
+             c-1.109-1.774-2.455-3.389-4-4.8c-12.481-12.407-32.639-12.407-45.12,0C3.61,239.414,0.215,247.527,0.18,256
+             c0.062,4.217,0.875,8.388,2.4,12.32c0.802,1.893,1.766,3.713,2.88,5.44c1.217,1.739,2.611,3.348,4.16,4.8
+             c1.414,1.542,3.028,2.888,4.8,4c1.685,1.228,3.511,2.249,5.44,3.04c1.951,0.821,3.992,1.412,6.08,1.76
+             c2.047,0.459,4.142,0.674,6.24,0.64c2.073,0.239,4.167,0.239,6.24,0c2.036-0.349,4.024-0.94,5.92-1.76
+             c1.981-0.786,3.861-1.807,5.6-3.04c1.772-1.112,3.386-2.458,4.8-4c1.542-1.414,2.888-3.028,4-4.8c1.23-1.684,2.251-3.51,3.04-5.44
+             c1.093-2.124,1.9-4.384,2.4-6.72C64.426,260.167,64.426,258.073,64.18,256z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M64.18,400c0.237-2.073,0.237-4.167,0-6.24c-0.553-2.116-1.359-4.157-2.4-6.08c-0.859-1.895-1.876-3.715-3.04-5.44
+             c-1.112-1.772-2.458-3.386-4-4.8c-12.481-12.407-32.639-12.407-45.12,0c-1.542,1.414-2.888,3.028-4,4.8
+             c-1.164,1.725-2.181,3.545-3.04,5.44c-0.83,1.948-1.421,3.99-1.76,6.08c-0.451,2.049-0.665,4.142-0.64,6.24
+             c0.036,8.473,3.431,16.586,9.44,22.56c1.414,1.542,3.028,2.888,4.8,4c1.685,1.228,3.511,2.249,5.44,3.04
+             c1.951,0.821,3.992,1.412,6.08,1.76c2.047,0.459,4.142,0.674,6.24,0.64c2.073,0.239,4.167,0.239,6.24,0
+             c2.036-0.349,4.024-0.94,5.92-1.76c1.981-0.786,3.861-1.807,5.6-3.04c1.772-1.112,3.386-2.458,4.8-4
+             c1.542-1.414,2.888-3.028,4-4.8c1.231-1.683,2.252-3.51,3.04-5.44c1.092-2.125,1.899-4.384,2.4-6.72
+             C64.426,404.167,64.426,402.073,64.18,400z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M480.18,224h-352c-17.673,0-32,14.327-32,32s14.327,32,32,32h352c17.673,0,32-14.327,32-32S497.853,224,480.18,224z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M336.18,368h-208c-17.673,0-32,14.327-32,32c0,17.673,14.327,32,32,32h208c17.673,0,32-14.327,32-32
+             C368.18,382.327,353.853,368,336.18,368z"
+                      />
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+
+                <h2 class="contact_heading">Our Workflow</h2>
+                <p class="contact-desc">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 50px">
+              <div
+                class="card-body"
+                style="background-color: black; border-radius: 50px"
+              >
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  class="contactsvg zoom"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M122.551,278.402c-12.566,0-22.789,10.222-22.789,22.787s10.223,22.787,22.789,22.787
+             c12.565,0,22.787-10.222,22.787-22.787S135.115,278.402,122.551,278.402z M122.551,308.949c-4.278,0-7.759-3.481-7.759-7.758
+             s3.481-7.758,7.759-7.758c4.278,0,7.758,3.481,7.758,7.758S126.828,308.949,122.551,308.949z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M328.724,423.314c-1.005-3.099-3.891-5.194-7.146-5.194H276.94l-13.794-42.453c-0.994-3.061-3.929-5.193-7.147-5.193
+             c-3.218,0-6.152,2.131-7.147,5.193l-13.794,42.453h-44.637c-3.255,0-6.141,2.096-7.147,5.193c-1.006,3.096,0.096,6.489,2.73,8.401
+             l36.112,26.238l-13.794,42.453c-0.963,2.961,0.049,6.296,2.495,8.223c2.613,2.059,6.377,2.134,9.069,0.178l36.112-26.238
+             l36.112,26.238c2.824,2.052,6.794,1.855,9.404-0.46c2.213-1.963,3.074-5.127,2.159-7.94l-13.794-42.453l36.112-26.238
+             C328.628,429.803,329.73,426.41,328.724,423.314z M276.631,449.001c-2.634,1.913-3.736,5.305-2.73,8.401l8.334,25.65
+             l-21.82-15.852c-2.604-1.893-6.23-1.893-8.833,0l-21.82,15.852l8.334-25.65c1.006-3.096-0.096-6.489-2.73-8.401l-21.819-15.852
+             h26.97c3.255,0,6.141-2.096,7.147-5.193l8.334-25.65l8.334,25.65c1.006,3.097,3.892,5.193,7.147,5.193h26.97L276.631,449.001z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M511.631,423.312c-1.006-3.097-3.892-5.193-7.147-5.193h-44.637l-13.794-42.453c-0.994-3.061-3.929-5.193-7.147-5.193
+             c-3.218,0-6.152,2.131-7.147,5.193l-13.794,42.453h-44.637c-3.255,0-6.141,2.096-7.147,5.193c-1.006,3.096,0.096,6.489,2.73,8.401
+             l36.112,26.238l-13.794,42.453c-0.963,2.961,0.049,6.296,2.495,8.223c2.613,2.059,6.377,2.134,9.069,0.178l36.112-26.238
+             l36.112,26.238c2.825,2.052,6.794,1.855,9.405-0.46c2.213-1.963,3.074-5.127,2.159-7.94l-13.794-42.453l36.112-26.238
+             C511.536,429.801,512.638,426.408,511.631,423.312z M459.538,449.001c-2.634,1.913-3.736,5.305-2.73,8.401l8.333,25.65
+             l-21.818-15.852c-2.635-1.914-6.201-1.915-8.834,0l-21.82,15.852l8.334-25.65c1.006-3.096-0.096-6.489-2.73-8.401l-21.819-15.852
+             h26.971c3.255,0,6.141-2.096,7.147-5.193l8.334-25.65l8.334,25.65c1.006,3.097,3.892,5.193,7.147,5.193h26.97L459.538,449.001z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M145.819,423.314c-1.007-3.099-3.893-5.194-7.148-5.194H94.034L80.24,375.667c-1.006-3.097-3.892-5.193-7.147-5.193
+             s-6.141,2.096-7.147,5.193L52.152,418.12H7.515c-3.255,0-6.141,2.096-7.147,5.193c-1.006,3.096,0.096,6.489,2.73,8.401
+             l36.112,26.238l-13.794,42.453c-1.006,3.096,0.096,6.489,2.73,8.401c2.633,1.914,6.2,1.914,8.834,0l36.112-26.238l36.112,26.238
+             c2.825,2.052,6.794,1.855,9.404-0.46c2.213-1.963,3.074-5.127,2.159-7.94l-13.794-42.453l36.112-26.238
+             C145.723,429.803,146.825,426.41,145.819,423.314z M93.725,449.001c-2.634,1.913-3.736,5.305-2.73,8.401l8.334,25.65
+             l-21.82-15.852c-2.604-1.893-6.23-1.893-8.834,0l-21.818,15.851l8.333-25.65c1.006-3.096-0.096-6.489-2.73-8.401l-21.819-15.852
+             h26.97c3.255,0,6.141-2.096,7.147-5.193l8.334-25.65l8.334,25.65c1.006,3.097,3.892,5.193,7.147,5.193h26.97L93.725,449.001z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M451.167,189.098c7.762-6.246,12.737-15.823,12.737-26.538c0-18.777-15.276-34.053-34.052-34.053H308.976
+             c3.757-8.192,8.094-20.671,10.573-38.018c5.758-40.309-2.943-61.705-11.256-72.556c-7.036-9.184-16.489-14.738-27.335-16.06
+             c-9.152-1.124-17.509,6.145-17.753,15.339c-1.407,14.454-6.554,54.107-13.926,68.853c-18.939,37.878-64.093,60.461-78.039,66.709
+             c-4.88-4.194-11.218-6.737-18.142-6.737H92.004c-15.372,0-27.878,12.505-27.878,27.878v152.731
+             c0,15.373,12.506,27.878,27.878,27.878h61.092c8.225,0,15.628-3.583,20.734-9.267c7.931,5.007,20.731,10.585,38.408,10.585
+             h196.383c18.777,0,34.052-15.276,34.052-34.052c0-8.607-3.21-16.479-8.496-22.481c11.308-5.545,19.11-17.178,19.11-30.597
+             c0-8.607-3.21-16.478-8.496-22.481c11.308-5.544,19.11-17.177,19.11-30.596C463.904,204.921,458.928,195.344,451.167,189.098z
+              M153.096,339.494H92.004c-7.085,0-12.849-5.764-12.849-12.849V173.914c0-7.085,5.764-12.849,12.849-12.849h61.092
+             c3.588,0,6.833,1.482,9.166,3.862v167.58c0,0.899,0.163,1.781,0.471,2.609C160.376,337.793,156.935,339.494,153.096,339.494z
+              M398.279,196.612h31.576c10.49,0,19.023,8.535,19.023,19.023s-8.534,19.023-19.023,19.023h-31.576
+             c-4.15,0-7.515,3.364-7.515,7.515c0,4.151,3.365,7.515,7.515,7.515h20.96c10.49,0,19.023,8.535,19.023,19.023
+             c0,10.488-8.534,19.023-19.023,19.023h-26.721c-4.15,0-7.515,3.364-7.515,7.515c0,4.151,3.365,7.515,7.515,7.515h16.105
+             c10.489,0,19.023,8.535,19.023,19.024c0,10.489-8.534,19.023-19.023,19.023H212.24c-15.51,0-26.025-5.196-31.734-9.097
+             c0.304-1.646,0.471-3.339,0.471-5.071V173.914c0-2.938-0.46-5.769-1.306-8.429c17.608-8.081,62.687-31.974,83.05-72.699
+             c10.185-20.369,15.263-72.239,15.474-74.437c0.022-0.238,0.034-0.479,0.034-0.718c0-0.256,0.098-0.474,0.291-0.644
+             c0.27-0.237,0.53-0.207,0.617-0.196c4.704,0.574,11.511,2.824,17.226,10.282c6.561,8.564,13.328,26.149,8.308,61.291
+             c-4.255,29.787-14.344,42.818-14.407,42.899c-3.939,4.814-0.392,12.274,5.815,12.274h133.775c10.49,0,19.023,8.535,19.023,19.024
+             c0,10.49-8.534,19.023-19.023,19.023h-31.576c-4.15,0-7.515,3.364-7.515,7.515S394.128,196.612,398.279,196.612z"
+                      />
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+
+                <h2 class="contact_heading">Rate Us</h2>
+                <p class="contact-desc">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap my-5">
+            <button
+              class="button_P"
+              style="background-color: black; color: #fff"
+            >
+              GET IN TOUCH!
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us section end -->
+
+    <!-- footer section start -->
+    <section
+      class="footerSection"
+      style="margin-top: 100px; padding-bottom: 60px; background-color: black"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10" style="margin-top: 60px">
+            <span class="footer_heading">ALWAYS USE</span> <br />
+            <span class="footersubheading">#DinamisBersamamu</span>
+          </div>
+          <div class="col-md-2 rest" style="margin-top: 60px">
+            <img
+              src="resource/LOGOS/Dinamis Creative Studio Logo White Transparent.png"
+              alt="logo"
+              width="120px"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="myfooterhead">Office</h2>
+            <span class="myfooterdesc">Dinamis Creative</span> <br />
+            <span class="myfooterdesc">Studio</span> <br />
+            <span class="myfooterdesc">Surabaya, DN.</span> <br />
+            <span class="myfooterdesc">Jl. Genteng Besar No. 2</span>
+          </div>
+          <div class="col-md-4">
+            <h2 class="myfooterhead">Contact Us</h2>
+            <span class="myfooterdesc">kontak@dinamis.id</span>
+          </div>
+          <div class="col-md-4">
+            <h2 class="myfooterhead">Social Media</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 widthautos">
+                  <a href="">
+                    <svg
+                      id="Bold"
+                      enable-background="new 0 0 24 24"
+                      viewBox="0 0 24 24"
+                      class="ftrsvgs"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-md-3 widthautos">
+                  <a href="">
+                    <svg
+                      viewBox="0 0 512.00096 512.00096"
+                      class="ftrsvgs"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"
+                      />
+                      <path
+                        d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"
+                      />
+                      <path
+                        d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-md-3 widthautos">
+                  <a href="">
+                    <svg
+                      version="1.1"
+                      id="Capa_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ftrsvgs"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 512 512"
+                      style="enable-background: new 0 0 512 512"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <g>
+                          <path
+                            d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+    C480.224,136.96,497.728,118.496,512,97.248z"
+                          />
+                        </g>
+                      </g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-md-3 widthautos">
+                  <a href="">
+                    <svg
+                      viewBox="0 -62 512.00199 512"
+                      class="ftrsvgs"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m334.808594 170.992188-113.113282-61.890626c-6.503906-3.558593-14.191406-3.425781-20.566406.351563-6.378906 3.78125-10.183594 10.460937-10.183594 17.875v122.71875c0 7.378906 3.78125 14.046875 10.117188 17.832031 3.308594 1.976563 6.976562 2.96875 10.652344 2.96875 3.367187 0 6.742187-.832031 9.847656-2.503906l113.117188-60.824219c6.714843-3.613281 10.90625-10.59375 10.9375-18.222656.027343-7.628906-4.113282-14.640625-10.808594-18.304687zm-113.859375 63.617187v-91.71875l84.539062 46.257813zm0 0"
+                      />
+                      <path
+                        d="m508.234375 91.527344-.023437-.234375c-.433594-4.121094-4.75-40.777344-22.570313-59.421875-20.597656-21.929688-43.949219-24.59375-55.179687-25.871094-.929688-.105469-1.78125-.203125-2.542969-.304688l-.894531-.09375c-67.6875-4.921874-169.910157-5.5937495-170.933594-5.59765575l-.089844-.00390625-.089844.00390625c-1.023437.00390625-103.246094.67578175-171.542968 5.59765575l-.902344.09375c-.726563.097657-1.527344.1875-2.398438.289063-11.101562 1.28125-34.203125 3.949219-54.859375 26.671875-16.972656 18.445312-21.878906 54.316406-22.382812 58.347656l-.058594.523438c-.152344 1.714844-3.765625 42.539062-3.765625 83.523437v38.3125c0 40.984375 3.613281 81.808594 3.765625 83.527344l.027344.257813c.433593 4.054687 4.746093 40.039062 22.484375 58.691406 19.367187 21.195312 43.855468 24 57.027344 25.507812 2.082031.238282 3.875.441406 5.097656.65625l1.183594.164063c39.082031 3.71875 161.617187 5.550781 166.8125 5.625l.15625.003906.15625-.003906c1.023437-.003907 103.242187-.675781 170.929687-5.597657l.894531-.09375c.855469-.113281 1.816406-.214843 2.871094-.324218 11.039062-1.171875 34.015625-3.605469 54.386719-26.019532 16.972656-18.449218 21.882812-54.320312 22.382812-58.347656l.058594-.523437c.152344-1.71875 3.769531-42.539063 3.769531-83.523438v-38.3125c-.003906-40.984375-3.617187-81.804687-3.769531-83.523437zm-26.238281 121.835937c0 37.933594-3.3125 77-3.625 80.585938-1.273438 9.878906-6.449219 32.574219-14.71875 41.5625-12.75 14.027343-25.847656 15.417969-35.410156 16.429687-1.15625.121094-2.226563.238282-3.195313.359375-65.46875 4.734375-163.832031 5.460938-168.363281 5.488281-5.082032-.074218-125.824219-1.921874-163.714844-5.441406-1.941406-.316406-4.039062-.558594-6.25-.808594-11.214844-1.285156-26.566406-3.042968-38.371094-16.027343l-.277344-.296875c-8.125-8.464844-13.152343-29.6875-14.429687-41.148438-.238281-2.710937-3.636719-42.238281-3.636719-80.703125v-38.3125c0-37.890625 3.304688-76.914062 3.625-80.574219 1.519532-11.636718 6.792969-32.957031 14.71875-41.574218 13.140625-14.453125 26.996094-16.054688 36.160156-17.113282.875-.101562 1.691407-.195312 2.445313-.292968 66.421875-4.757813 165.492187-5.464844 169.046875-5.492188 3.554688.023438 102.589844.734375 168.421875 5.492188.808594.101562 1.691406.203125 2.640625.3125 9.425781 1.074218 23.671875 2.699218 36.746094 16.644531l.121094.128906c8.125 8.464844 13.152343 30.058594 14.429687 41.75.226563 2.558594 3.636719 42.171875 3.636719 80.71875zm0 0"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section start -->
+    <!-- underfooter section start -->
+    <section class="underfooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="uftext">
+              Copyright g 2021 Dinamis Creative Studio- under the supervision of
+              PT. Mitra Amerta Asia
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- underfooter section start -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>-->
+    <script src="js/script.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </body>
+</html>
