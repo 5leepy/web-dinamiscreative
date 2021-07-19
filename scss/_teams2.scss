@@ -20,7 +20,7 @@
     &-img {
         width: 100%;
         height: 100%;
-        min-width: 311px;
+        min-width: 300px;
         min-height: 311px;
         background-color: #FFAA00;
         border-radius: 3rem;
@@ -56,14 +56,14 @@
             }
             h3 {
                             
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 font-weight: 600;
-                margin-bottom: 2rem;
+                margin-bottom: 1.8rem;
             }
             p {
-                line-height: 2rem;
+                line-height: 1.8rem;
                 
-                margin-bottom: 3rem; 
+                margin-bottom: 2.8rem; 
             }
 
         }
@@ -75,13 +75,13 @@
         }
         .content {
             h3 {
-                margin-bottom: 1rem;
+                margin-bottom: 0.8rem;
             }
             p {
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.3rem;
             }
             p {
-                line-height: 1.5rem;
+                line-height: 1.3rem;
             }
         }
     }
@@ -112,11 +112,11 @@
         .content{
             
             h3 {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
             p {
-                line-height: 1.2rem;
-                font-size: .8rem;
+                line-height: 1rem;
+                font-size: .6rem;
             }
         }
     }

@@ -477,13 +477,13 @@ img {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
 }
 
 .team-card .content p {
   line-height: 2rem;
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .team-card .content a {
@@ -527,17 +527,17 @@ img {
     margin-top: -100px;
   }
   .team .content h3, .team .content p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
   }
   .team .content h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .team .content p {
-    line-height: 1.2rem;
-    font-size: .8rem;
+    line-height: 1rem;
+    font-size: .6rem;
   }
   .team .content a {
-    font-size: .8rem;
+    font-size: .6rem;
     padding: .5rem 1rem;
   }
 }
@@ -594,7 +594,7 @@ img {
 .team2-img {
   width: 100%;
   height: 100%;
-  min-width: 311px;
+  min-width: 300px;
   min-height: 311px;
   background-color: #FFAA00;
   border-radius: 3rem;
@@ -646,14 +646,14 @@ img {
 }
 
 .team2-card .content h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .team2-card .content p {
-  line-height: 2rem;
-  margin-bottom: 3rem;
+  line-height: 1.8rem;
+  margin-bottom: 2.8rem;
 }
 
 @media (max-width: 87.49875em) {
@@ -662,13 +662,13 @@ img {
     margin-left: 0;
   }
   .team2 .content h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
   }
   .team2 .content p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
   }
   .team2 .content p {
-    line-height: 1.5rem;
+    line-height: 1.3rem;
   }
 }
 
@@ -701,11 +701,11 @@ img {
 
 @media (max-width: 61.99875em) {
   .team2 .content h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .team2 .content p {
-    line-height: 1.2rem;
-    font-size: .8rem;
+    line-height: 1rem;
+    font-size: .6rem;
   }
 }
 
